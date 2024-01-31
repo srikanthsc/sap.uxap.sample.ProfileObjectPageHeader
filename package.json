@@ -1,0 +1,16 @@
+{
+  "homepage": "https://srikanthsc.github.io/sap.uxap.sample.ProfileObjectPageHeader/",
+  "name": "sap-uxap-sample--profile-object-page-header",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: ObjectPageHeader with placeholder",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3",
+    "gh-pages": "^6.1.1"
+  }
+}
