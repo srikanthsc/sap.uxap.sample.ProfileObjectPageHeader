@@ -62,7 +62,7 @@
             text="Github"
             importance="Low"
             tooltip="Github"
-            press="handlePressGithub"/>
+            press="handlePressGitHub"/>
 				</actions>
 			</ObjectPageHeader>
 		</headerTitle>
