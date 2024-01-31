@@ -27,8 +27,35 @@
 					</m:Bar>
 				</navigationBar>
 				<actions>
-					<ObjectPageHeaderActionButton icon="sap-icon://tree" text="tree" tooltip="tree"/>
-					<ObjectPageHeaderActionButton icon="sap-icon://action" text="action" tooltip="action"/>
+					<!-- <ObjectPageHeaderActionButton icon="sap-icon://tree" text="tree" tooltip="tree"/>
+					<ObjectPageHeaderActionButton icon="sap-icon://action" text="action" tooltip="action"/> -->
+					<ObjectPageHeaderActionButton
+            icon="./images/icons8-linkedin.svg"
+            text="Srikanth's profile"
+            importance="Low"
+            tooltip="Srikanth's profile"
+            press="handlePressLinkedIn"/>
+			
+			<ObjectPageHeaderActionButton
+            icon="./images/icons8-youtube.svg"
+            text="Cinematic Spectra"
+            importance="Low"
+            tooltip="Cinematic Spectra"
+            press="handlePressYoutube"/>
+
+				<ObjectPageHeaderActionButton
+            icon="./images/icons8-gmail.svg"
+            text="Click for Gmail"
+            importance="Low"
+            tooltip="Click for Gmail"
+            press="handlePressGmail"/>
+
+				<ObjectPageHeaderActionButton
+            icon="./images/icons8-twitter.svg"
+            text="Click for Twitter"
+            importance="Low"
+            tooltip="Click for Twitter"
+            press="handlePressTwitter"/>
 				</actions>
 			</ObjectPageHeader>
 		</headerTitle>
@@ -39,14 +66,7 @@
 				<m:ObjectStatus title="Email" text="srikanthcollaty92@gmail.com"/>
 			</layout:VerticalLayout>
 			<layout:HorizontalLayout>
-				<m:Image width="25px" height="25px"
-						 src="./images/icons8-twitter.svg"/>
-				<m:Image width="25px" height="25px"
-						 src="./images/icons8-linkedin.svg"/>
-				<m:Image width="25px" height="25px"
-						 src="./images/icons8-youtube.svg"/>
-						 <m:Image width="29px" height="29px"
-						 src="./images/icons8-gmail.svg"/>
+			
 			</layout:HorizontalLayout>
 			<m:ObjectStatus state="Success" icon="sap-icon://employee-approvals" text="Available"/>
 			<layout:VerticalLayout>
