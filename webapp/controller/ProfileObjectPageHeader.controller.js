@@ -11,7 +11,7 @@ sap.ui.define([
 		},
 
 		handlePressLinkedIn        : function (oEvent) {
-			window.location.href = "https://www.linkedin.com/";
+			window.location.href = "https://www.linkedin.com/in/srikanth-collaty-9343a520b/";
 		},
 		handlePressGitHub: function (oEvent) {
 			window.location.href= "https://github.com/srikanthsc";
