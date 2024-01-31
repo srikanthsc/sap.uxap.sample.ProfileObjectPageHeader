@@ -56,6 +56,13 @@
             importance="Low"
             tooltip="Click for Twitter"
             press="handlePressTwitter"/>
+
+			<ObjectPageHeaderActionButton
+            icon="./images/githubsvg.svg"
+            text="Github"
+            importance="Low"
+            tooltip="Github"
+            press="handlePressGithub"/>
 				</actions>
 			</ObjectPageHeader>
 		</headerTitle>
