@@ -1,0 +1,2 @@
+sap.ui.define(["sap/uxap/BlockBase"],function(a){"use strict";var e=a.extend("sap.uxap.sample.SharedBlocks.personal.PersonalBlockPart2",{metadata:{views:{Collapsed:{viewName:"sap.uxap.sample.SharedBlocks.personal.PersonalBlockPart2",type:"XML"},Expanded:{viewName:"sap.uxap.sample.SharedBlocks.personal.PersonalBlockPart2",type:"XML"}}}});return e});
+//# sourceMappingURL=PersonalBlockPart2.js.map

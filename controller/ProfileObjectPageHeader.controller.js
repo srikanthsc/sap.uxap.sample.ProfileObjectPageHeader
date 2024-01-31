@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel"],function(e,a){"use strict";return e.extend("sap.uxap.sample.ProfileObjectPageHeader.controller.ProfileObjectPageHeader",{onInit:function(){var e=new a(sap.ui.require.toUrl("sap/uxap/sample/SharedJSONData/employee.json"));this.getView().setModel(e,"ObjectPageModel")}})});
+//# sourceMappingURL=ProfileObjectPageHeader.controller.js.map

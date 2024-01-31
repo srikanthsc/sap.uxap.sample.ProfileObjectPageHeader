@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/library","sap/uxap/BlockBase"],function(a,e){"use strict";var s=a.mvc.ViewType;var l=e.extend("sap.uxap.sample.SharedBlocks.goals.GoalsBlock",{metadata:{views:{Collapsed:{viewName:"sap.uxap.sample.SharedBlocks.goals.GoalsBlock",type:s.XML},Expanded:{viewName:"sap.uxap.sample.SharedBlocks.goals.GoalsBlock",type:s.XML}}}});return l});
+//# sourceMappingURL=GoalsBlock.js.map

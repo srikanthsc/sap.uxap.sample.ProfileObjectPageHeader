@@ -1,0 +1,15 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:forms="sap.ui.layout.form" xmlns="sap.m">
+
+	<forms:SimpleForm editable="false" layout="ColumnLayout">
+		<core:Title text="Work Experience background"/>
+
+			<Label text="Vinci Construction S.I"/>
+		<Text text="SAP Full Stack Developer - Associate manager"/>
+			<Label text="TRACTEBEL – ENGIE GROUP"/>
+		<Text text="BIM Developer"/>
+			<Label text="Istya"/>
+		<Text text="Project Manager and developer"/>
+
+	</forms:SimpleForm>
+
+</mvc:View>
